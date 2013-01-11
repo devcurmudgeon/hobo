@@ -40,7 +40,7 @@ An [worked example](/tutorials/agility#improve_the_project_page_with_a_searchabl
             </if>
           </th>
         </with-field-names>
-        <th if="&all_parameters[:controls]" class="controls"></th>
+        <th if="&all_parameters[:controls]" class="controls" param="controls-heading"/>
       </field-heading-row>
     </table>
     <empty-collection-message param="empty-message"/>
